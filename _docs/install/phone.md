@@ -1,6 +1,6 @@
 ---
-title: Phone
-category: Contact Syncing
+title: 软件环境
+category: 安装
 order: 2
 ---
 

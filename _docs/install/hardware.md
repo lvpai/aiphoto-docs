@@ -1,6 +1,6 @@
 ---
-title: Facebook
-category: Contact Syncing
+title: 硬件要求
+category: 安装
 order: 1
 ---
 
