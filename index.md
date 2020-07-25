@@ -1,10 +1,8 @@
 ---
-title: Welcome
+title: 欢迎
 ---
 
-This is the **Edition** template from [CloudCannon](http://cloudcannon.com/).
-**Edition** is perfect for documenting your product, application or service.
-It's populated with example content to give you some ideas.
+AI 修图 2.0 是在 1.0 的基础上开放调色功能的本地安装版本, 该版本继承强大的 AI 功能.
 
 ChatApp is a fictional chat application for sending messages and media to others.
 Teams and friend groups would use ChatApp to stay up to date if it existed.
