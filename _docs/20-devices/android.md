@@ -1,6 +1,6 @@
 ---
-title: Android
-category: Devices
+title: Android 安卓
+category: 移动平台
 order: 2
 ---
 

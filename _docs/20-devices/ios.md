@@ -1,6 +1,6 @@
 ---
-title: iOS
-category: Devices
+title: iOS 苹果
+category: 移动平台
 order: 1
 ---
 

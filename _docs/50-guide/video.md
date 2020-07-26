@@ -1,7 +1,7 @@
 ---
-title: Video
-category: Media
-order: 2
+title: 调色
+category: 修图大师
+order: 3
 ---
 
 Share video to your friends! Send videos from your computer, phone, camera or YouTube.
