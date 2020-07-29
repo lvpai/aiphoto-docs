@@ -4,7 +4,8 @@ category: 常见问题
 order: 1
 ---
 
-Share documents with your friends! Send work or school projects from your computer or phone.
+#### 导入图片的时候显示上传中
+1. 在 Windows7 环境下, 请确认两个补丁有完整安装.
 
 To share a document:
 

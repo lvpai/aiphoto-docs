@@ -9,3 +9,6 @@ order: 2
 
 
 AMD 未验证, Intel 集成显示需要 4 代以上
+
+### 不支持的显卡列表
+1. AMD Radeon R7 370 系列
