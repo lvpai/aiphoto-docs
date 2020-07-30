@@ -4,6 +4,10 @@ category: 常见问题
 order: 1
 ---
 
+### 如何确认我的电脑有没有升级到 SP1 ?
+请打开 **我的电脑** -> **属性**, 如果介面上显示 **Service Pack 1** 即表示 windows 7 已更新到 SP1 版本. 如果没有请[下载SP1补丁](https://www.microsoft.com/zh-CN/download/details.aspx?id=5842)按[说明更新](https://support.microsoft.com/zh-cn/help/15090/windows-7-install-service-pack-1-sp1)更新您的系统.<br/>
+![win7 sp1](/images/install/install-win7-sp1.png)
+
 ### 为什么导入图片的时候显示上传中 ?
 1. 在 Windows10 环境下, 请确认 [VC++ Runtime](https://www.microsoft.com/zh-CN/download/details.aspx?id=52685) 有安装
 1. 在 Windows7 环境下, 请确认 [VC++ Runtime](https://www.microsoft.com/zh-CN/download/details.aspx?id=52685) 和 [KB2670838](https://www.microsoft.com/zh-CN/download/details.aspx?id=36805) 有完整安装.
