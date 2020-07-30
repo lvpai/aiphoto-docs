@@ -30,9 +30,9 @@ order: 1
 4. 视网络情况, 大约几分钟会下载完, 然后双击 **运行** 下载好的文件, 它会自动搜索是否安装过该补丁, 如果没有的请询问是否需要安装, 这时请点击 **是** :<br/>
 ![yes](/images/install/install-KB2670838-yes.png)<br/>
 5. 然后安装程序会进行初始化并自动进行下一步:<br/>
-![init](images/install/install-KB2670838-init.png)<br/>
-![init](images/install/install-KB2670838-running.png)
+![init](/images/install/install-KB2670838-init.png)<br/>
+![running](/images/install/install-KB2670838-running.png)
 6. 经过几分钟后, 当更新完成时需要重起电脑, 这时请保存数据然后点击 **立即重新启动**, 重起之后整个更新就完成了.<br/>
-![init](images/install/install-KB2670838-restart.png)
+![restart](/images/install/install-KB2670838-restart.png)
 10. 如果安装过会提示"已安装该补丁", 这时您需要联系我们技术支持进一步确认问题:<br/>
-![do not install](/images/install/install-KB2670838-installed.png)
+![do not need install](/images/install/install-KB2670838-installed.png)
