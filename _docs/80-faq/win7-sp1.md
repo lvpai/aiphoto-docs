@@ -10,7 +10,7 @@ order: 1
 
 ### 如何在我的电脑上安装 VC++ Runtime ?
 0. 当电脑提示缺少 MSVCP140.dll 时, 请安装 VC++ Runtime: <br/>
-![missing vc runtime](/images/install/install-vc-runtime-missing-file)
+![missing vc runtime](/images/install/install-vc-runtime-missing-file.png)
 1. 打开微软的网站 [microsoft.com/zh-CN/download/details.aspx?id=52685](https://www.microsoft.com/zh-CN/download/details.aspx?id=52685), 点击下载, 如下图:<br/>
 ![click to donwload](/images/install/install-vc-runtime-download.png)
 2. 由于我们只支持 64位的 CPU 架构, 所以勾选 vc_redist.x64.exe 这个文件, 然后点 **Next**, 如图:<br/>
