@@ -2,6 +2,7 @@
 title: Windows7 常见问题
 category: 常见问题
 order: 1
+toc: true
 ---
 
 ### 如何确认我的电脑有没有升级到 SP1 ?

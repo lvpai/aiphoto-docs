@@ -30,12 +30,22 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-feed
+  - jekyll-toc
 
 exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
   - LICENCE
+
+toc:
+  min_level: 3
+  max_level: 5
+  no_toc_section_class: no_toc_section
+  list_class: section-nav
+  sublist_class: ''
+  item_class: toc-entry
+  item_prefix: toc-
 
 collections:
   docs:

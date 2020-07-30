@@ -75,7 +75,14 @@
 				<h3>{{ page.title }}</h3>
 			</div>
 			<article class="content">
-				{{ content }}
+				<div>
+          <div id="table-of-contents">
+            {% toc %}
+          </div>
+          <div id="markdown-content">
+            {{ content }}
+          </div>
+        </div>
 			</article>
 		</section>
 
