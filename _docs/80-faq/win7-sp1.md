@@ -36,3 +36,11 @@ order: 1
 ![restart](/images/install/install-KB2670838-restart.png)
 10. 如果安装过会提示"已安装该补丁", 这时您需要联系我们技术支持进一步确认问题:<br/>
 ![do not need install](/images/install/install-KB2670838-installed.png)
+
+### 无法更新 KB2670838, 双击后提示错误码: 0x80240037
+1. 请确认电脑的 windows update 服务有启用, 如果没有请到 **服务管理** 启用后再试;
+2. 如果确认启还是无法安装更新, 请手动更新:
+ 1. 将下载的文件从 `Windows6.1-KB2670838-x64.msu` 改名为 `Windows6.1-KB2670838-x64.cab` , 然后使用 7z 工具解压另外一个文件夹, 得到另一个同样名字的 `Windows6.1-KB2670838-x64.cab`
+ 2. 接着执行: `dism /online /add-package /packagepath:Windows6.1-KB2670838-x64.cab`<br/>
+ ![cmd](/images/install/install-KB2670838-cmd.jpg)
+ 3. 最后, 输入 `Y` 重起电脑.
