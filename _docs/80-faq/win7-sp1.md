@@ -9,6 +9,8 @@ order: 1
 1. 在 Windows7 环境下, 请确认 [VC++ Runtime](https://www.microsoft.com/zh-CN/download/details.aspx?id=52685) 和 [KB2670838](https://www.microsoft.com/zh-CN/download/details.aspx?id=36805) 有完整安装.
 
 ### 如何在我的电脑上安装 VC++ Runtime ?
+0. 当电脑提示缺少 MSVCP140.dll 时, 请安装 VC++ Runtime: <br/>
+![missing vc runtime](/images/install/install-vc-runtime-missing-file)
 1. 打开微软的网站 [microsoft.com/zh-CN/download/details.aspx?id=52685](https://www.microsoft.com/zh-CN/download/details.aspx?id=52685), 点击下载, 如下图:<br/>
 ![click to donwload](/images/install/install-vc-runtime-download.png)
 2. 由于我们只支持 64位的 CPU 架构, 所以勾选 vc_redist.x64.exe 这个文件, 然后点 **Next**, 如图:<br/>
@@ -40,7 +42,8 @@ order: 1
 ### 无法更新 KB2670838, 双击后提示错误码: 0x80240037
 1. 请确认电脑的 windows update 服务有启用, 如果没有请到 **服务管理** 启用后再试;
 2. 如果确认启还是无法安装更新, 请手动更新:
- 1. 将下载的文件从 `Windows6.1-KB2670838-x64.msu` 改名为 `Windows6.1-KB2670838-x64.cab` , 然后使用 7z 工具解压另外一个文件夹, 得到另一个同样名字的 `Windows6.1-KB2670838-x64.cab`
- 2. 接着执行: `dism /online /add-package /packagepath:Windows6.1-KB2670838-x64.cab`<br/>
- ![cmd](/images/install/install-KB2670838-cmd.jpg)
- 3. 最后, 输入 `Y` 重起电脑.
+    1. 将下载的文件从 `Windows6.1-KB2670838-x64.msu` 改名为 `Windows6.1-KB2670838-x64.cab` , 然后使用 7z 工具解压 CAB 文件到另外一个文件夹, 得到另一个同样名字的 `Windows6.1-KB2670838-x64.cab`
+    2. 接着执行: `dism /online /add-package /packagepath:Windows6.1-KB2670838-x64.cab`<br/>
+    ![cmd](/images/install/install-KB2670838-cmd.jpg)
+    3. 最后, 输入 `Y` 重起电脑.
+3. 如果按照上述的步骤还是没法解决问题, 请联系我们的技术支持远程协助安装.
