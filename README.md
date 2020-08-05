@@ -39,7 +39,7 @@ $ bundle exec jekyll serve
 
 ## Editing
 
-Edition is already optimised for adding, updating and removing documentation pages in CloudCannon.
+Checkout this code form gitlab, using Atom or VScode in your PC.
 
 ### Documentation pages
 
